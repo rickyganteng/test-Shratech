@@ -1,0 +1,144 @@
+.contentWrapper {
+  font-size: 62.5%;
+  padding: 1em 1em;
+  background-color: #f6f8ff;
+}
+.btn1 {
+  width: 170px;
+}
+.box1,
+.box2 {
+  position: relative;
+}
+.box1::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 20%;
+  height: 29%;
+  right: -8%;
+  top: -14%;
+}
+.cardz {
+  position: relative;
+}
+.box2::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 20%;
+  height: 29%;
+  right: -8%;
+  top: -14%;
+}
+
+.imagePart {
+  position: relative;
+}
+
+.subjudul {
+  font-size: 15px;
+}
+.scroll {
+  width: 860px;
+  height: 69.7%;
+  border: 1px solid #c9d5e0;
+  overflow: scroll;
+  background-color: white;
+}
+.marginleft li {
+  font-size: 13px;
+}
+.font {
+  font-size: 13px;
+}
+
+.marginleft {
+  margin-left: 20px;
+}
+
+.centerr {
+  text-align: center;
+}
+
+.card p {
+  font-size: 1.4em;
+}
+
+.row2,
+.row3 {
+  margin-top: 20%;
+}
+
+.row3 {
+  margin-bottom: 20%;
+}
+
+.tickIcon {
+  border-radius: 50%;
+}
+
+.cards img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 6px solid #0e1422bd;
+  object-fit: cover;
+}
+
+.card {
+  padding: 5em 6em;
+  border-radius: 16px;
+  border-style: none;
+  box-shadow: 0px 8px 16px rgba(197, 197, 197, 0.25);
+}
+.card .cardTitle {
+  font-size: 2.2em;
+  font-weight: 600;
+}
+.card .cardSubtitle {
+  font-size: 1.4em;
+  margin-top: 1em;
+}
+.card p {
+  margin-top: 2em;
+}
+
+.contentWrapper {
+  padding: 2em 10em;
+  position: relative;
+}
+
+@media (max-width: 576px) {
+  .btn1 {
+    width: 17px;
+    position: absolute;
+    margin-bottom: -30px;
+  }
+  .imagePart {
+    position: relative;
+  }
+  .scroll {
+    display: none;
+  }
+  .contentWrapper {
+    padding: 2em 10em;
+    position: relative;
+  }
+
+  .card p {
+    font-size: 1.6em;
+  }
+}
+
+@media (max-width: 768px) {
+  .scroll {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .scroll {
+    display: none;
+  }
+}
